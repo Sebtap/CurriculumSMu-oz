@@ -1,0 +1,44 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-image: url(https://cloudfront-eu-central-1.images.arcpublishing.com/prisa/DDEZDSEAAVH4VHIN6DGELDFHZE.jpg);
+    /*background-position: 50px 25px;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1,h2{
+    font-family: 'Explora', cursive;
+    color: green;
+    font-size: 50px;
+}
+
+div li{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    font-size: 40px;
+}
+div a{
+    color: aqua;
+    font-size: 50px;
+}
+
+.miclase{
+    color:green;
+    font-size: 40px;
+}
+.misegclase{
+    color:rgb(113, 43, 226);
+    font-size: 50px;
+}
+@media only screen and (max-width: 600px)
+{
+    body{
+        background-color: red;
+    }
+    
+}

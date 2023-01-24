@@ -1,0 +1,26 @@
+p, span{ 
+    color:red;
+    width:300px;
+}
+h1{
+    font-family: 'Explora', cursive;
+    font-weight:bold;
+    border: 1px solid rebeccapurple;
+    padding: 30px 10px 14px 12px;
+    margin: 30px 10px 10px;
+    
+}
+section{
+    border: 109px solid green;
+    padding: 10px 20px 30px 40px;
+    margin: 30px;
+}
+
+#mi_parrafo{
+    color: aqua;
+}
+
+.estaesmiclase{
+    font-weight: bold;
+    color: orange;
+}
