@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+}
+
+.nombre{
+    background-color: lightcoral;
+    color: #333;
+    width: 500px;
+    box-sizing: border-box;
+}
+
+.titulos{
+    color: greenyellow;
+}
+
+.posicionar_imagen{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.separacion{
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
