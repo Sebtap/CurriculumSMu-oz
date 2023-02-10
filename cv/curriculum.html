@@ -7,24 +7,72 @@
     <title>Curriculum</title>
     <link rel="stylesheet" href="C:\Users\Gabriel SSD\Desktop\FRONTENDSEBA\cv\curriculum.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class=".container">
-        <div class="row">
+    <div class="container.fluid">
+        <div class="row fila1">
             <div class="col-6">
-                <div class="posicionar_imagen"><img src="" alt="Imagen de perfil"></div>
-                <ul class="separacion"><h2 class="titulos">Habilidades</h2>
-                    <li>Control full stack Desarrollo Web</li>
-                    <li>Control intermedio de Excel,PowerPoint y Word</li>
-                    <li>Texter de Software QA</li>
-                </ul>    
+                <div class="block_imagen">
+                    <img class="posicionar_imagen"src="https://randomuser.me/api/portraits/men/60.jpg" alt="Imagen de perfil">
+                </div>
+                <div class="datos">
+                    <span class="ubicacion"><i class="fa-solid fa-house"></i><span class="tooltip_ubicacion parrafo">4675 Bruce St</span></span>
+                    <span class="celular"><i class="fa-solid fa-phone"></i><span class="tooltip_celular parrafo">(963) 458-0332</span></span>
+                    <span class="email"><i class="fa-solid fa-envelope"></i><span class="tooltip_email parrafo">juan.burton@example.com</span></span>                         
+                 </div>       
             </div>
             <div class="col">
-                <h1 class="nombre">Sebastian Alejandro Muñoz</h1>
-                <h2 class="titulos">Perfil personal</h2>
-                <p>Soy </p>
+                <div class="block_nombre">
+                    <h1 id="nombre" class="black">Sebastian Muñoz</h1>
+                </div>
+                <div class="block_info">
+                    <h2 class="titulos"><i class="fa-solid fa-user"></i>Perfil personal</h2>   
+                    <p class="parrafo">Me considero una persona respensable innovadora que trabaja en equipo <br>
+                        y que busca la mejora continua con ganas de seguir sumando <br> 
+                        conocimiento y experiencia.</p>
+                </div>
             </div>
-    
+        </div>
+
+        <div class="row fila2">
+            <div class="col-6">
+                <div class="block_habilidades">
+                    <h2 class="titulos"><i class="fa-solid fa-brain"></i>Habilidades</h2>
+                    <ul>
+                        <li class="parrafo">Control intermedio de Excel,PowerPoint y Word.</li>
+                        <li class="parrafo">Desarrollor Web front-end junior.</li>
+                        <li class="parrafo">Texter de Software QA.</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="block_formacion">
+                    <h2 class="titulos"><i class="fa-solid fa-graduation-cap"></i>Formacion</h2>
+                    <p class="parrafo">Tecnico automotor en escuela secuendaria Nº6 Chacabuco Moron. <br>
+                    Estudiante de ingenieria en UTN Haedo. <br>
+                    Texter de control de calidad de Software en Educacion it .<br>
+                    Desarrollador front-end en academy de Argentina programa 4.0 .
+                    </p>
+                </div>
+                <div class="block_experiencia">
+                    <h2 class="titulos"><i class="fa-solid fa-briefcase"></i>Experiencia Laboral</h2>
+                    <p class="parrafo">Mantenimiento de Hardware de computadoras .
+                        <br>Pedidos con  la app rappi .
+                        <br>Mantenimiento de maquinas de rectificacion Industria Krass .
+                        <br>Ayudante de albanileria con mi padre.</p>
+                </div>
+            </div>
+
+        </div>        
     </div>
+    
+    <script src="curriculum.js"></script>                
 </body>
-</html>
+        
+ </html>

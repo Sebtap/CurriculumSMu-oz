@@ -1,27 +1,186 @@
-body{
-    background-color: white;
-}
 
-.nombre{
-    background-color: lightcoral;
-    color: #333;
-    width: 500px;
+*{
     box-sizing: border-box;
+    cursor: pointer;
 }
-
-.titulos{
-    color: greenyellow;
+@media only screen and (min-width: 769px){
+    .fila1{
+    background-color: #999999;
+    display: block;
+    width: 100%;
+    height: 400px;
 }
-
+.block_imagen{
+    display: block;
+}
 .posicionar_imagen{
-    position: relative;
-    top: 20px;
-    left: 20px;
-}
-
-.separacion{
     border-radius: 50%;
+    width: 300px;
+    height: 300px;
     position: relative;
     top: 50px;
     left: 50px;
+}
+.datos{
+    position: relative;
+    top: 60px;
+}
+.ubicacion{
+    display: inline;
+    position: relative;
+    left: 50px;
+}
+.celular{
+    display: inline;
+    position: relative;
+    left: 165px;
+}
+.email{
+    display: inline;
+    position: relative;
+    left: 280px;
+}
+.tooltip_ubicacion{
+    display: none;
+}
+.tooltip_celular{
+    display: none;
+}
+.tooltip_email{
+    display: none;
+}
+.ubicacion:hover .tooltip_ubicacion{
+    display:inline;
+}
+.celular:hover .tooltip_celular{
+    display: inline;
+}
+.email:hover .tooltip_email{
+    display: inline;
+}
+.block_nombre{
+    position: relative;
+    top: 30px;
+}
+.block_info{
+    position: relative;
+    top: 100px;
+}
+.fila2{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+.block_habilidades{
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.block_formacion{
+    position: relative;
+    top: 30px;
+}
+.block_experiencia{
+    position: relative;
+    top: 50px;
+}
+.black{
+    font-size: 70px;
+    color: #333;
+    text-align: center;
+}
+.red{
+    font-size: 70px;
+    color: red;
+    text-align: center;
+}
+
+.parrafo{
+    font-family: 'Montserrat', sans-serif;
+}   
+
+}/*cierre mediaquery para pantallas de 769px de ancho hacia adelante*/
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .fila1{
+        background-color: #999999;
+        display: block;
+        width: 100%;
+        height: 250px;
+    }
+    .block_imagen{
+        display: block;
+    }
+    .posicionar_imagen{
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        position: relative;
+        top: 20px;
+        left: 30px;
+    }
+    .datos{
+        position: relative;
+        top: 30px;
+    }
+    .ubicacion{
+        display: block
+    }
+    .celular{
+        display: block;
+    }
+    .email{
+        display: block;
+    }
+    .parrafo{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+    } 
+    .titulos{
+        text-decoration: underline;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    .fila1{
+        background-color: #999999;
+        display: block;
+        width: 100%;
+        height: 250px;
+    }
+    .block_imagen{
+        display: block;
+    }
+    .posicionar_imagen{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: 20px;
+        left: 30px;
+    }
+    .block_info{
+        position: relative;
+        top: 20px;
+    }
+    .ubicacion{
+        display: block;
+        position: relative;
+        top: 20px;
+    }
+    .celular{
+        display: block;
+        position: relative;
+        top: 40px;
+    }
+    .email{
+        display: block;
+        position: relative;
+        top: 60px;
+    }
+    .parrafo{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+    } 
+    .titulos{
+        text-decoration: underline;
+    }
 }
